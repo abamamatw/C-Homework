@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B436B7B-4348-43E6-A318-83FC647ABA65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>C_Homework</RootNamespace>
+    <AssemblyName>C#Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0703_Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0703_Hello.Designer.cs">
+      <DependentUpon>Frm_0703_Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0704_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0704_Loan.Designer.cs">
+      <DependentUpon>Frm_0704_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0705_POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0705_POS.Designer.cs">
+      <DependentUpon>Frm_0705_POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0708_StructForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0708_StructForm.Designer.cs">
+      <DependentUpon>Frm_0708_StructForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0711_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0711_Method.Designer.cs">
+      <DependentUpon>Frm_0711_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0712_ForDoWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0712_ForDoWhile.Designer.cs">
+      <DependentUpon>Frm_0712_ForDoWhile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0712_MyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0712_MyClac.Designer.cs">
+      <DependentUpon>Frm_0712_MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_0716_OXGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_0716_OXGame.Designer.cs">
+      <DependentUpon>Frm_0716_OXGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Drawpaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Drawpaint.Designer.cs">
+      <DependentUpon>Frm_Drawpaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_GuessNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_GuessNumber.Designer.cs">
+      <DependentUpon>Frm_GuessNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Notepad.Designer.cs">
+      <DependentUpon>Frm_Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_PictureViewer.Designer.cs">
+      <DependentUpon>Frm_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ScreenSaver.Designer.cs">
+      <DependentUpon>Frm_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess.Designer.cs">
+      <DependentUpon>Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanShow.Designer.cs">
+      <DependentUpon>LoanShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pic1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pic1.Designer.cs">
+      <DependentUpon>Pic1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pic2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pic2.Designer.cs">
+      <DependentUpon>Pic2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pic3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pic3.Designer.cs">
+      <DependentUpon>Pic3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pic4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pic4.Designer.cs">
+      <DependentUpon>Pic4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pic5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pic5.Designer.cs">
+      <DependentUpon>Pic5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0703_Hello.resx">
+      <DependentUpon>Frm_0703_Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0704_Loan.resx">
+      <DependentUpon>Frm_0704_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0705_POS.resx">
+      <DependentUpon>Frm_0705_POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0708_StructForm.resx">
+      <DependentUpon>Frm_0708_StructForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0711_Method.resx">
+      <DependentUpon>Frm_0711_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0712_ForDoWhile.resx">
+      <DependentUpon>Frm_0712_ForDoWhile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0712_MyClac.resx">
+      <DependentUpon>Frm_0712_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_0716_OXGame.resx">
+      <DependentUpon>Frm_0716_OXGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Drawpaint.resx">
+      <DependentUpon>Frm_Drawpaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_GuessNumber.resx">
+      <DependentUpon>Frm_GuessNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Notepad.resx">
+      <DependentUpon>Frm_Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_PictureViewer.resx">
+      <DependentUpon>Frm_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ScreenSaver.resx">
+      <DependentUpon>Frm_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess.resx">
+      <DependentUpon>Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanShow.resx">
+      <DependentUpon>LoanShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pic1.resx">
+      <DependentUpon>Pic1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pic2.resx">
+      <DependentUpon>Pic2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pic3.resx">
+      <DependentUpon>Pic3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pic4.resx">
+      <DependentUpon>Pic4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pic5.resx">
+      <DependentUpon>Pic5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHIE.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
